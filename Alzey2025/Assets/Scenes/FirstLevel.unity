@@ -132,6 +132,8 @@ GameObject:
   - component: {fileID: 339650951}
   - component: {fileID: 339650950}
   - component: {fileID: 339650954}
+  - component: {fileID: 339650955}
+  - component: {fileID: 339650956}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -177,7 +179,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.875, y: 1}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -307,6 +309,53 @@ MonoBehaviour:
   maxFallSpeed: 25
   fallSpeedMultiplier: 2
   damageJumpForce: 200
+--- !u!95 &339650955
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339650949}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cff16ae21c929e642a0a7530ae4c8ae3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &339650956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339650949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe094f7b5acf8d14b8d6368735c1c012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body: {fileID: 339650951}
+  spriteRenderer: {fileID: 339650952}
+  animator: {fileID: 339650955}
+  invincibleAlpha: 0.5
+  useSleepAnimation: 0
+  sleepTimer: 2.5
+  speedParameter: Speed
+  jumpingParameter: Jumping
+  anticipateJumpParameter: AnticipateJump
+  fallingParameter: Falling
+  hurtParameter: Hurt
+  sleepParameter: Sleep
+  dieParameter: Die
 --- !u!1 &386391065
 GameObject:
   m_ObjectHideFlags: 0
