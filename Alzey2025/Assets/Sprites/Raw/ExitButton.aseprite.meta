@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 43737d85fcab44a489a1a529fa86cd64
+guid: 320338611ba20f24fb0636a2d6792bba
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,9 +123,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Background
+  - name: Frame_0
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: -0.071428575}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -133,9 +133,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 640
-      height: 360
-    spriteID: f50a12990e0f2b04ca20cb71c3c4781e
+      width: 30
+      height: 14
+    spriteID: e12fa617674056c4994aa2fa2bcf03ea
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,29 +144,89 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 26
+      width: 30
+      height: 14
+    spriteID: 2509790e1a196644cb1b5e5b1b896598
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 26}
+  - name: Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 48
+      width: 30
+      height: 14
+    spriteID: 38b2693f256fa3446b1dac6a8db01937
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 48}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 332801758
+      value0: 2741006990
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: Background
+    name: ExitButton
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Background
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 0
-        y: 0
-        width: 640
-        height: 360
-      spriteId: f50a12990e0f2b04ca20cb71c3c4781e
+        x: 1
+        y: 1
+        width: 30
+        height: 14
+      spriteId: e12fa617674056c4994aa2fa2bcf03ea
+    - name: Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 1
+        y: 1
+        width: 30
+        height: 14
+      spriteId: 2509790e1a196644cb1b5e5b1b896598
+    - name: Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 1
+        y: 1
+        width: 30
+        height: 14
+      spriteId: 38b2693f256fa3446b1dac6a8db01937
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -185,5 +245,5 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 640, y: 360}
-  previousTextureSize: {x: 1024, y: 512}
+  canvasSize: {x: 32, y: 16}
+  previousTextureSize: {x: 64, y: 128}
